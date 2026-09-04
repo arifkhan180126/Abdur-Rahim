@@ -1,4 +1,4 @@
-"""Beginner SOC log analyzer for detecting repeated failed logins."""
+"""Expert SOC log analyzer for detecting repeated failed logins."""
 
 from collections import Counter
 
