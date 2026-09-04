@@ -1,6 +1,6 @@
 # SOC Failed Login Analyzer
 
-A beginner-friendly Security Operations Center (SOC) project written in Python. It reviews authentication logs, counts failed login attempts by source IP address, and raises a possible brute-force alert when an IP reaches three or more failures.
+An expert-level Security Operations Center (SOC) project written in Python. It reviews authentication logs, counts failed login attempts by source IP address, and raises a possible brute-force alert when an IP reaches three or more failures.
 
 ## What it does
 
@@ -40,6 +40,6 @@ Edit the `LOG_DATA` list in `soc_log_analyzer.py`. Each entry should include an 
 
 The alert threshold is controlled by `ALERT_THRESHOLD`.
 
-## Learning goals
+## Expert SOC concepts
 
-This project demonstrates basic log parsing, filtering, counting with Python's `Counter`, and simple threshold-based security alerting.
+This project demonstrates log parsing, event filtering, source-IP aggregation, and threshold-based brute-force detection.
